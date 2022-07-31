@@ -1,0 +1,102 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: #fff;
+}
+aside {
+  display: flex;
+  flex-flow: row wrap;
+  width: 30vw;
+  height: 100vh;
+  background-color: #001524;
+}
+li {
+  line-height: 80px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+nav a {
+  padding: 20px 70px;
+  color: #fff;
+  text-decoration: none;
+}
+nav a:hover {
+  font-size: 20px;
+  color: #fff;
+}
+main {
+  display: flex;
+  flex-flow: row wrap;
+  width: 70vw;
+  height: 100vh;
+  padding-left: 20px;
+}
+h1 {
+  font-size: 90px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.content {
+  margin-top: 100px;
+  width: 850px;
+}
+.local {
+  color: #b1a7a6;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.last-name {
+  color: #15616d;
+}
+.center {
+  margin: auto;
+}
+.icons {
+  width: 30px;
+  padding: 8px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  box-shadow: 0 3px #001524;
+  margin-right: 12px;
+}
+.icons:hover {
+  padding: 10px;
+}
+.profile-picture {
+  width: 60%;
+  display: flex;
+  margin: 0 auto;
+  border: 3px solid #15616d;
+  border-radius: 100%;
+}
+.container-icons {
+  height: 200px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-content: center;
+}
+ol li {
+  text-align: left;
+  line-height: 50px;
+}
+.link-knowledge {
+  color: #000;
+  text-decoration: none;
+}
+.professional-goals {
+  margin-right: 80px;
+}
+.personal-goals li {
+  text-align: left;
+  line-height: 20px;
+}
