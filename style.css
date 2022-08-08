@@ -80,10 +80,9 @@ h1 {
 }
 .container-icons {
   height: 200px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  align-content: center;
+  position: absolute;
+  top: 10px;
+  right: 0px;
 }
 ol li {
   text-align: left;
